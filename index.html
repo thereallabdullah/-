@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علمني</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa; /* لون خلفية الصفحة */
+            color: #333; /* لون النص العام */
+            text-align: right; /* محاذاة النص إلى اليمين */
+            padding-top: 50px; /* هامش للتفادي الشريط العلوي */
+            margin: 0;
+        }
+
+        nav {
+            background-color: #007bff; /* لون خلفية الشريط العلوي */
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999; /* لضمان ظهور الشريط فوق أي عناصر أخرى */
+            text-align: center; /* محاذاة الروابط في الوسط */
+        }
+
+        nav a {
+            color: #fff; /* لون الروابط في الشريط العلوي */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            max-width: 800px; /* عرض أقصى للمحتوى */
+            margin: auto;
+            background-color: #fff; /* لون خلفية الصندوق */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 70px; /* هامش لتفادي الشريط العلوي */
+            margin-bottom: 40px; /* هامش لتفادي الشريط السفلي */
+        }
+
+        h1 {
+            color: #007bff; /* لون العنوان الرئيسي */
+            font-size: 28px; /* حجم العنوان الرئيسي */
+            text-align: center; /* محاذاة العنوان في الوسط */
+            margin-bottom: 20px; /* هامش للتفاصيل السفلية */
+        }
+
+        ul {
+            text-align: right; /* محاذاة النقاط إلى اليمين */
+            font-size: 18px; /* حجم الخط للنقاط */
+            margin-right: 0; /* لتوسيط النقاط في الصندوق */
+            padding-right: 20px; /* هامش اليمين للنقاط */
+            direction: rtl; /* لبدء النقاط من اليمين */
+        }
+
+        li {
+            margin-bottom: 10px; /* هامش بين النقاط */
+        }
+
+        .email-button {
+            display: block; /* جعل الزر على شكل مربع */
+            margin: 10px auto; /* توسيط الزر وإضافة هامش أسفلي */
+            padding: 10px 20px; /* هامش داخلي للزر */
+            background-color: #007bff; /* لون خلفية الزر */
+            color: #fff; /* لون النص في الزر */
+            border: none; /* إزالة الحدود */
+            border-radius: 5px; /* تدوير الحواف */
+            cursor: pointer; /* تغيير المؤشر عند التحويل إلى الزر */
+            transition: transform 0.3s; /* تغيير الحجم عند التحويل */
+        }
+
+        .email-button:hover {
+            background-color: #0056b3; /* تغيير لون الخلفية عندما يتم تحويل المؤشر إلى الزر */
+            transform: scale(1.1); /* تكبير الزر عند التحويل */
+        }
+
+        .website-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .website-link a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .website-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#overview">نبذة</a>
+        <a href="#course-plan">الخطة الدراسية</a>
+        <a href="#contact">التواصل</a>
+    </nav>
+
+    <div id="overview" class="container">
+        <h1>علمني</h1>
+        <p>مرحبًا بك في موقع علمني. نحن هنا لمساعدتك في تعلم البرمجة وتطوير مهاراتك التقنية. سنقدم لك موارد مفيدة ودروسا تعليمية لمختلف لغات البرمجة وتقنيات التطوير.</p>
+    </div>
+
+    <div id="course-plan" class="container">
+        <h1>الخطة الدراسية</h1>
+        <p>سيتعلم الطلاب اللغات البرمجية التالية:</p>
+        <ul>
+            <li>HTML و CSS: لبناء وتنسيق صفحات الويب. يمكنك البدء مع <a href="https://www.w3schools.com/" target="_blank">موقع W3Schools</a> لتعلم HTML و CSS.</li>
+            <li>JavaScript: إضافة التفاعلية إلى صفحات الويب وتحسينها. قم بمتابعة دروس <a href="https://www.codecademy.com/" target="_blank">Codecademy</a> لتعلم JavaScript.</li>
+            <li>Python: لغة سهلة التعلم وقوية لتطوير تطبيقات الويب والألعاب. ابدأ مع <a href="https://www.python.org/" target="_blank">موقع Python</a> للمبتدئين.</li>
+            <li>Java: تطوير تطبيقات Android وتطبيقات سطح المكتب. ابدأ مع <a href="https://www.oracle.com/java/" target="_blank">موقع Oracle</a> لتحميل Java Development Kit (JDK).</li>
+        </ul>
+    </div>
+
+    <div id="contact" class="container">
+        <h1>التواصل</h1>
+        <p>إذا كان لديك أي استفسارات أو اقتراحات، يرجى التواصل معنا عبر البريد الإلكتروني:</p>
+        <div class="website-link">
+            <a href="mailto:abdullah2code@gmail.com">abdullah2code@gmail.com</a>
+            <button class="email-button" onclick="copyToClipboard('abdullah2code@gmail.com')">نسخ البريد الإلكتروني</button>
+        </div>
+    </div>
+
+    <div class="container" style="text-align: center;">
+        <h1>الموقع الشخصي</h1>
+        <a href="https://thereallabdullah.github.io/abdullah2Code/#" target="_blank">
+            <button class="email-button">زيارة الموقع الشخصي</button>
+        </a>
+    </div>
+
+    <script>
+        function copyToClipboard(text) {
+            var textarea = document.createElement("textarea");
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textarea);
+            alert("تم نسخ البريد الإلكتروني: " + text);
+        }
+    </script>
+<footer class="footer">
+    <p class="footer-title">Copyrights @<span>Abdullah alotaibi</span></p>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/abdullah2code?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/abdullah2code?s=20"><i class="fa-brands fa-x-twitter"></i></a>
+
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* لون خلفية الصفحة */
+    color: #333; /* لون النص العام */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff; /* لون خلفية الصندوق */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007bff; /* لون العنوان الرئيسي */
+    font-size: 36px; /* حجم العنوان الرئيسي */
+}
+
+h2 {
+    color: #0056b3; /* لون العنوان الفرعي */
+    font-size: 24px; /* حجم العنوان الفرعي */
+}
+
+p {
+    font-size: 18px; /* حجم النص العام */
+}
+
+a {
+    color: #007bff; /* لون الروابط */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3; /* لون الروابط عند التحويم */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* لون خلفية الصفحة */
+    color: #333; /* لون النص العام */
+    text-align: right; /* محاذاة النص إلى اليمين */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff; /* لون خلفية الصندوق */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007bff; /* لون العنوان الرئيسي */
+    font-size: 36px; /* حجم العنوان الرئيسي */
+}
+
+h2 {
+    color: #0056b3; /* لون العنوان الفرعي */
+    font-size: 24px; /* حجم العنوان الفرعي */
+}
+
+p {
+    font-size: 18px; /* حجم النص العام */
+}
+
+a {
+    color: #007bff; /* لون الروابط */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3; /* لون الروابط عند التحويم */
+}
+
+.footer {
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #3a6cf4;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
